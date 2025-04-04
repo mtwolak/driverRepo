@@ -3,6 +3,8 @@ public class Main {
         CarRent kensejlCarRent = new CarRent();
         kensejlCarRent.addCar("e36");
         kensejlCarRent.addCar("v40");
+        kensejlCarRent.addCar("Renault");
+        kensejlCarRent.addCar("Ford");
 
         Driver kuba = new Driver();
         kensejlCarRent.borrow("v40", kuba);
